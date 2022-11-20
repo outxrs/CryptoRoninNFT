@@ -1,0 +1,57 @@
+@media (max-width: 400px) {
+  header section aside nav ul li a {
+    font-size: 40px;
+  }
+  .ronin h1 {
+    font-size: 18px !important;
+  }
+  .ronin .soon {
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 810px) {
+  .ronin .soon {
+    font-size: 60px;
+  }
+}
+@media (max-width: 600px) {
+  .ronin .soon {
+    font-size: 50px;
+  }
+}
+@media (max-width: 510px) {
+  header section .left nav ul li a {
+    font-size: 28px;
+  }
+  header section .right nav ul li a {
+    font-size: 35px;
+  }
+  .ronin h1 {
+    font-size: 20px;
+  }
+  .ronin .soon {
+    font-size: 40px;
+  }
+  .collection h1 {
+    padding-top: 25px;
+    font-size: 30px;
+  }
+  .collection a {
+    font-size: 20px;
+  }
+}
+@media (max-width: 360px) {
+  header section .left nav ul li a {
+    font-size: 22px;
+  }
+  header section .right nav ul li a {
+    font-size: 28px;
+  }
+  header section .right nav ul li .fa-discord {
+    margin-right: 5px;
+  }
+  .collection h1 {
+    padding-top: 45px;
+    font-size: 25px;
+  }
+}

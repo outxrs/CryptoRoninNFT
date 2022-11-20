@@ -1,0 +1,264 @@
+body {
+  font-family: "Bowlby One", cursive;
+
+}
+.banner-main {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background-color: #bc002d;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0px auto;
+  display: block;
+}
+
+body .alert {
+  margin: 0px;
+  overflow-x:hidden;
+}
+header section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 3;
+}
+header section .left nav ul li a {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+header section aside nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+header section aside nav ul li {
+  margin-top: 10px;
+}
+header section aside nav ul li a {
+  font-size: 50px;
+}
+header section .left nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+header section .right nav ul li .fa-twitter {
+  color: white;
+}
+header section .right nav ul li .fa-discord {
+  color: white;
+}
+header section .right nav ul li .fa-twitter:hover {
+  color: #1ca6d6;
+  transition: 0.3s;
+}
+header section .right nav ul li .fa-discord:hover {
+  color: #5562ea;
+  transition: 0.3s;
+}
+header section .left nav ul li a:hover {
+  color: white;
+}
+header section .right nav ul li .fa-discord {
+  margin-right: 10px;
+}
+.collection {
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.collection a {
+  color: white;
+  font-size: 25px;
+  background-color: #bc002d;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-end-end-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.collection h1 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.collection a:hover {
+  color: #bc002d;
+  background-color: white;
+  transition: 0.8s;
+}
+.collection {
+  background-color: white;
+  height: 200px;
+  
+}
+.mint {
+  color: #bc002d;
+  font-size: 26px;
+  background-color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-end-end-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.8s;
+}
+.mint:hover{
+  color: white;
+  background-color: #bc002d;
+  font-size: 32px;
+  padding-bottom: 0px;
+}
+.ronin .soon {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 80px;
+}
+.ronin {
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 25px;
+}
+.roadmap {
+  background-image: linear-gradient(#bc002d, #ff154c);
+  height: 100%;
+  text-align: center;
+  margin-top: 0;
+}
+.roadmap h1 {
+  color: rgb(31, 27, 27);
+  padding-top: 80px;
+  font-size: 45px;
+}
+.roadmap div h1 {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.roadmap div h2 {
+  color: white;
+  margin-bottom: 22px;
+  font-size: 20px;
+}
+.roadmap .phase3 {
+  padding-bottom: 50px;
+}
+.whyRonin h2 {
+  padding-top: 20px;
+  color: white !important;
+}
+.faq {
+  margin-left: 25%;
+  text-align: left;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.faq h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.faq h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1{
+  background-image:url('/wave-haikei\ \(2\).svg')
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer2{
+  background-image:url('/wave-haikei\ \(3\).svg')
+}
+
+
+
+#connect {
+  background-color: #bc002d;
+  font-size: 20px;
+  background-color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  flex-wrap: wrap;
+  border-end-end-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: relative;
+  top: -13px;
+  
+}
+.deff{
+  padding-top: 40px;
+  font-size: 24px;
+  color: #bc002d;
+}
+.deff span{
+  color: black;
+}
+.ronin span{
+  color: rgb(27, 25, 25);
+}
+.soon {
+  padding-bottom: 0px;
+}
+.date {
+  padding: 0px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  
+}
+
+.team .d{
+  font-size: 3rem;
+}
+.team .d1{
+  font-size: 2.8rem;
+}
+.team .s{
+  font-size:2.6rem ;
+}
+
+.team .fa-twitter{
+  font-size: 50px;
+}
+.team .fa-twitter:hover{
+  color: #1ca6d6;
+  transition: 0.3s;
+}
+.team .fa-discord{
+  font-size: 50px;
+}
+.team .fa-discord:hover{
+  color: #5562ea;
+  transition: 0.3s;
+}
